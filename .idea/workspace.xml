@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad3234c5-68f4-4571-b821-8a2b377d49dd" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\404.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\activity.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\all-authors-2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\all-authors.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\animate.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\blast.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\fonts\icofont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\fonts\icofont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\fonts\icofont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\fonts\icofont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\fonts\icofont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\icofont.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\style.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\style.min.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\style.min.scss.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\css\swiper-bundle.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\fonts\lightcase.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\fonts\lightcase.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\fonts\lightcase.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\fonts\lightcase.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\account\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\activity\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\activity\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\activity\03.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\activity\04.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\activity\05.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\banner\banner-img.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\banner\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\icon\b-code.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\blog\icon\code.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\contact\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\contact\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\contact\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\contact\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\footer\bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\footer\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\logo\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\logo\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\03.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\04.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\05.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\06.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\07.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\08.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\09.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\10.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\11.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\blog\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\blog\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\blog\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\category\18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\item-details.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-2\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-3\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-3\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-3\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\nft-item\style-3\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\profile\Profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\profile\cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\rounded-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\03.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\04.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\05.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\05.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\06.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\06.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\07.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\07.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\08.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\08.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\09.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\09.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\10.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\10.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\11.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\12.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\13.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\seller\seller-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\sponsor\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\sponsor\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\sponsor\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\sponsor\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\sponsor\05.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\sponsor\06.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\wallet\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\wallet\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\wallet\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\wallet\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\images\wallet\05.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\blast.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\jquery-3.6.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\jquery.counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\swiper-bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\js\wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\style.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\abstracts\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\abstracts\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\base\_extend.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\base\_fonts.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\base\_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_banner.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_coming-soon.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_error-page.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_home.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_item-details.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_preloader.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_profile.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_registration.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\components\_widget.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\vendors\_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\assets\sass\sub-stylesheet\vendors\_rfs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\animate.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\blast.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\fonts\icofont.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\fonts\icofont.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\fonts\icofont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\fonts\icofont.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\fonts\icofont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\icofont.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\lightcase.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\style.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\css\swiper-bundle.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\fonts\lightcase.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\fonts\lightcase.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\fonts\lightcase.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\fonts\lightcase.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\account\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\activity\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\activity\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\activity\03.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\activity\04.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\activity\05.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\banner-img.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\bg-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\bg-4.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\banner\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\icon\b-code.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\blog\icon\code.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\contact\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\contact\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\contact\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\contact\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\footer\bg-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\footer\bg-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\footer\bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\logo\logo-2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\logo\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\03.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\04.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\05.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\06.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\blog\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\category\18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\item-details.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-2\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-3\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-3\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-3\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\nft-item\style-3\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\profile\Profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\profile\cover.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\rounded-down.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\01.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\02.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\03.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\04.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\05.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\05.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\06.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\06.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\07.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\07.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\08.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\08.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\09.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\09.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\10.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\10.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\11.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\12.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\13.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\seller\seller-icon.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\sponsor\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\sponsor\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\sponsor\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\sponsor\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\sponsor\05.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\sponsor\06.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\04.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\05.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\06.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\07.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\images\wallet\08.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\blast.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\bootstrap.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\isotope.pkgd.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\jquery-3.6.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\jquery.counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\lightcase.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\swiper-bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\js\wow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\style.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\abstracts\_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\abstracts\_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\base\_extend.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\base\_fonts.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\base\_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\base\_utilities.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_banner.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_blog.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_coming-soon.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_contact.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_error-page.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_footer.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_global.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_home.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_item-details.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_preloader.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_profile.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_registration.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\components\_widget.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\vendors\_normalize.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\assets\sass\sub-stylesheet\vendors\_rfs.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\auction.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\author.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\blog-2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\blog-3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\blog-single-2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\blog-single.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\blog.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\coming-soon.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\contact.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\explore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\forgot-pass.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\index-2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\index-3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\item-details.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\signin.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\signup.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\www\Cosmos-HackAtom-VI\FRONT\temp\enftomark\wallet.html" afterPath="" />
+    </list>
+    <ignored path="Cosmos-HackAtom-VI.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Cosmos-HackAtom-VI" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cosmos-HackAtom-VI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cosmos-HackAtom-VI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cosmos-HackAtom-VI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cosmos-HackAtom-VI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cosmos-HackAtom-VI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FRONT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="temp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FRONT/temp/marketplace" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad3234c5-68f4-4571-b821-8a2b377d49dd" name="Default" comment="" />
+      <created>1638230289025</created>
+      <option name="number" value="Default" />
+      <updated>1638230289025</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
+
