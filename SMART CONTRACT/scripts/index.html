@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/ipfs/dist/index.min.js"></script>
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', async () => {
+      
+
+        const nodeId = 'ipfs-' + Math.random()
+        const node = await Ipfs.create({ repo: nodeId })
+        console.log("Your node: " + nodeId)
+        window.node = node
+        const status = node.isOnline() ? 'online' : 'offline'
+        console.log(`Node status: ${status}`)
+
+
+        
+        // function to add the files
+        // async function addFile (_files) {
+        //     for  (const result of _files) {
+        //          let rt = await node.add({
+        //     path: '/Users/touresouleymane/Downloads/hospital.png',
+        //     content: 'ABC'
+        // })
+        //         console.log(rt)
+        //     }
+        // }
+                
+       
+
+        //create a variable with the directory path '/my/beautiful/directory' 
+        // and a file 'awesomesause.txt' with the content 'ABC' 
+        var files = [{
+            path: '/Users/touresouleymane/Downloads/hospital.png',
+            content: 'ABC'
+        }]
+
+        addFile(files) //add the first file       
+
+        // //update the 'files' variable to add another file to the directory path '/mybeautiful/directory' in ipfs
+        // files = [{
+        //     path: '/Users/touresouleymane/Downloads/hospital.png',
+        //     content: 'DEF'
+        // }]
+        
+        addFile(files) //add the sectond file
+
+       
+
+        let directory = "cosmos";
+        let filename = "img-cosmos"
+        async function addFile (files) {
+            for await (const { directory, filename } of node.add('/Users/touresouleymane/Documents/PROJETS/WEALTHTEACH/tokenfactoryv2/nft/scripts/test.txt','Je suis!')) {
+            console.log('successfully stored', directory, filename)             
+            console.log(directory, filename)
+            }
+        }
+    })
+</script>
+<body>
+</body>
+</html>
