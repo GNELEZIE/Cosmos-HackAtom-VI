@@ -27,8 +27,12 @@ module.exports = {
   networks: {
      hardhat: {},
      evmos: {
-        url: conf.API_URL,
+        url: conf.API_URL_EVMOS,
         accounts: [`0x${conf.PRIVATE_KEY}`]
-     }
+     },
+     roposten: {
+      url: conf.API_URL_ROPSTEN,
+      accounts: [`0x${conf.PRIVATE_KEY}`]
+   }
   },
 };
