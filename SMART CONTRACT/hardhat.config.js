@@ -23,16 +23,13 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 module.exports = {
   solidity: "0.8.9",
-  defaultNetwork: "evmos",
+  defaultNetwork: "evmostestnet",
   networks: {
      hardhat: {},
-     evmos: {
-        url: conf.API_URL_EVMOS,
-        accounts: [`0x${conf.PRIVATE_KEY}`]
-     },
-     roposten: {
-      url: conf.API_URL_ROPSTEN,
-      accounts: [`0x${conf.PRIVATE_KEY}`]
-   }
+     evmostestnet: {
+      url: "https://ethereum.rpc.evmos.dev",
+      accounts: ["434B96870C2D1F912FDD4344DAE22CDF4CDFAA41887D91258C9882B015FAB44C"]
+    },
   },
 };
+

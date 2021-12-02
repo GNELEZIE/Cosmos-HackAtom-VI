@@ -33,3 +33,21 @@ const tokenFactory = await (await ethers.getContractFactory("TokenFactory")).att
 TUTOTIAL LINK 
 https://ethereum.org/es/developers/tutorials/how-to-write-and-deploy-an-nft
 ```
+
+
+
+
+### ACOUNT CREATED ON EVMOD LOCALHOST
+```
+- name: mykey
+  type: local
+  address: evmos1a5mru5y48fqz3tacu0hmd8wex08sqvl5uh28yx
+  pubkey: '{"@type":"/ethermint.crypto.v1.ethsecp256k1.PubKey","key":"Ar16zRyOFbNYYyzf5/wq+fjuZIZnHArpha72OoRvclib"}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+drill huge festival behind champion glow rail decide aisle brand suffer patch basic label fetch range photo fury endless knock naive draw grunt later
+```
