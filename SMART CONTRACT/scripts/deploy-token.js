@@ -7,11 +7,11 @@ const hre = require("hardhat");
 
 async function main() {
 
-    const MyNFT = await ethers.getContractFactory("MyNFT")
+    const AfricanArt = await ethers.getContractFactory("AfricanArt")
     console.log('Deploying ...');
     // Start deployment, returning a promise that resolves to a contract object
-    const myNFT = await MyNFT.deploy()
-    console.log("Contract deployed to address:", myNFT.address)
+    const africanArt = await AfricanArt.deploy()
+    console.log("Contract deployed to address:", africanArt.address)
 }
 
 // We recommend this pattern to be able to use async/await everywhere

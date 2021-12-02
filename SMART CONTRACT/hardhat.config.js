@@ -23,10 +23,10 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
 module.exports = {
   solidity: "0.8.9",
-  defaultNetwork: "ropsten",
+  defaultNetwork: "evmos",
   networks: {
      hardhat: {},
-     ropsten: {
+     evmos: {
         url: conf.API_URL,
         accounts: [`0x${conf.PRIVATE_KEY}`]
      }
