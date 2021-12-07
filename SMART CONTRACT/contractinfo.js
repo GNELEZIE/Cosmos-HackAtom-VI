@@ -53,11 +53,7 @@ const abi = [
 	}
 ];
 
-
 const contractAdress = "0x65e63D9e06D169e7C15793bF4d0C6a32bf85495F";
-
-
-
 
 const bytecode = [
 	{
