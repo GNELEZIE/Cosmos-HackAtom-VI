@@ -115,19 +115,45 @@ $(document).ready(async function () {
       console.log("Vous devez installer metamask")
     }
   }
+  function addToMetamask(_networksetting) {
+    return $jscomp.asyncExecutePromiseGeneratorProgram(function (a) {
+        window.ethereum ? ethereum.request({
+            method: "wallet_addEthereumChain",
+            params: [_networksetting]
+        })["catch"](function (b) {
+            if( params.network == "ethereum" || params.network == "ether" || params.network == "eth"){
+               window.location='bnb';
+            }
+            console.log(params);
+            return console.log(b.message)
+        }) : $("#nometamask").fadeIn(1E3).fadeOut(1E3);
+        a.jumpToEnd()
+    })
+}
 
   // BOUTON DE CONNEXION AU COMPTE
     $(document).ready(function() {
-        alert('ok');
+        
         var result =  _getAccounts()
-        console.log(result)
-        if (result.error) {
-            $('#btn_connect').show();
-            alert("Une erreur est survenue au moment de l'obtention des infos de votre compte !",);
-            return
-        }
+        var params = {
+          "chainId": "9000",
+          "chainName": "Evmos Testnet",
+          "rpcUrls": [
+              "http://arsiamons.rpc.evmos.org:8545"
+          ],
+          "nativeCurrency": {
+              "name": "Photon",
+              "symbol": "PHOTON",
+              "decimals": 18
+          },
+          "blockExplorerUrls": [
+              "https://evm.evmos.org"
+          ]
+      }
+      
     });
-
+    addToMetamask(params);
+   
    connectSmartContract();
 });
 
