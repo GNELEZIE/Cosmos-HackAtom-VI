@@ -118,7 +118,6 @@ $(document).ready(async function () {
 
   // BOUTON DE CONNEXION AU COMPTE
     $(document).ready(function() {
-        alert('ok');
         var result =  _getAccounts()
         console.log(result)
         if (result.error) {
@@ -126,7 +125,14 @@ $(document).ready(async function () {
             alert("Une erreur est survenue au moment de l'obtention des infos de votre compte !",);
             return
         }
+
+    //   evmos-testnet: {
+    //   provider: () => new HDWalletProvider(mnemonic, 'http://arsiamons.rpc.evmos.org:8545'),
+    //   network_id: 9000,
+    // }
     });
+
+    
 
    connectSmartContract();
 });

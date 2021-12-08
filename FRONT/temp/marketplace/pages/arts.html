@@ -15,21 +15,21 @@
     <!-- <meta property="og:image" content=""> -->
 
     <!-- site favicon -->
-    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" href="../../assets/images/favicon.png">
 
     <!-- ====== All css file ========= -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css//icofont.min.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css//icofont.min.css">
     <!-- <link rel="stylesheet" href="assets/css/blast.min.css"> -->
-    <link rel="stylesheet" href="assets/css/lightcase.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/lightcase.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../assets/css/style.min.css">
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
 
-    <script src="assets/node_modules/web3/dist/web3.min.js"></script>
-    <script src="assets/contract/connect.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/node_modules/web3/dist/web3.min.js"></script>
+    <script src="../assets/contract/connect.js"></script>
+    <script src="../assets/js/main.js"></script>
 
 
 
@@ -56,22 +56,22 @@
         <div class="container-fluid">
             <div class="header__content">
                 <div class="header__logo">
-                    <a href="index.html" style="font-size: 30px">
+                    <a href="../index.html" style="font-size: 30px">
                         Marketplace
                     </a>
                 </div>
                 <div class="header__menu ms-auto">
                     <ul class="header__nav mb-0">
                         <li class="header__nav-item">
-                            <a href="index.html" class="header__nav-link">Accueil</a>
+                            <a href="../index.html" class="header__nav-link">Accueil</a>
                         </li>
                         <li class="header__nav-item">
                             <a class="header__nav-link" href="#" role="button" data-bs-toggle="dropdown"
                                aria-haspopup="true" aria-expanded="false" data-bs-offset="0,10">Catégories</a>
 
                             <ul class="dropdown-menu header__nav-menu">
-                                <li><a class="drop-down-item" href="pages/musique.html">Music</a></li>
-                                <li><a class="drop-down-item" href="pages/arts.html">Art</a></li>
+                                <li><a class="drop-down-item" href="musique.html">Music</a></li>
+                                <li><a class="drop-down-item" href="arts.html">Art</a></li>
 
                             </ul>
                         </li>
@@ -130,636 +130,10 @@
     <!-- ===============//header section end here \\================= -->
 
 
-    <!-- ===============//banner section start here \\================= -->
-    <section class="banner-section">
-        <div class="container">
-            <div class="banner-wrapper">
-                <div class="row align-items-center g-5">
-                    <div class="col-lg-6">
-                        <div class="banner-content">
-                            <h1><span class="theme-color" data-blast="color">Découvrir</span> Collecter<br>
-                                et vendre des actifs  <span class="theme-color" data-blast="color">NFT</span></h1>
-                            <div class="banner-btns d-flex flex-wrap">
-                                <a data-blast="bgColor" href="explore.html"
-                                    class="default-btn move-top"><span>Achater</span> </a>
-                                <a href="signin.html" class="default-btn move-right"><span>Inscription</span> </a>
+    
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="banner-image">
-                            <img src="assets/images/banner/bannerg.png" alt="NFT Image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ===============//banner section end here \\================= -->
-
-    <section class="assets-section pb-100 pt-5">
-    <div class="container">
-    <div class="section-header">
-        <div class="header-title">
-            <div class="live-icon" data-blast="bgColor">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 24">
-                    <title>live</title>
-                    <g id="Layer_3" data-name="Layer 3">
-                        <g id="Layer_3-3" data-name="Layer 3">
-                            <path d="M12,17.87l4.36,4.51,4.37-4.51A6,6,0,0,0,12,17.87Z" />
-                            <path d="M6,12.35l2.91,3a10,10,0,0,1,14.54,0l2.91-3A14.09,14.09,0,0,0,6,12.35Z" />
-                            <path
-                                    d="M0,6.85l2.91,3a18.09,18.09,0,0,1,26.18,0l2.91-3A22.12,22.12,0,0,0,0,6.85Z" />
-                        </g>
-                    </g>
-                </svg>
-            </div>
-            <h3>Music</h3>
-        </div>
-        <div class="header-content">
-            <ul class="asset-filter-list d-flex flex-wrap align-items-center mb-0">
-                <li class="asset-filter-btn is-checked" data-filter="*">Zouglou</li>
-                <li class="asset-filter-btn" data-filter=".virtual">Coupé décalé</li>
-                <li class="asset-filter-btn" data-filter=".top">Traditionnelle</li>
-                <li class="asset-filter-btn" data-filter=".collect">Reggae</li>
-                <li class="asset-filter-btn" data-filter=".trending">Rap</li>
-                <li class="asset-filter-btn" data-filter=".cards">Slam</li>
-            </ul>
-        </div>
-    </div>
-    <div class="section-wrapper">
-    <div class="assets-holder d-flex flex-wrap justify-content-center align-items-center">
-    <div class="nft-item top trending">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author d-flex align-items-center">
-                            <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/04.png" alt="author-img"></a>
-                            <h6><a href="author.html">Gucci Lucas</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/02.gif" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">EUPHORIA de</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            230</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item top trending">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.gif"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author d-flex align-items-center">
-                            <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/02.png" alt="author-img"></a>
-                            <h6><a href="author.html">Ecalo jers</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/03.jpg" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">Mewao com de</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            278</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item cards virtual">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/02.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/05.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author d-flex align-items-center">
-                            <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/04.png" alt="author-img"></a>
-                            <h6><a href="author.html">Hola moc</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/04.gif" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">pet mice rio</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="item-details.html" class="nft-like" data-blast="color"><i
-                                class="icofont-heart"></i>
-                            340</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item top trending">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/06.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author d-flex align-items-center">
-                            <a href="#" class="veryfied"><img loading="lazy"
-                                                              src="assets/images/seller/05.gif" alt="author-img"></a>
-                            <h6><a href="author.html">Logicto pen</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/07.jpg" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">Logical Impact </a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            330</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item collect cards">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/06.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/07.gif"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author d-flex align-items-center">
-                            <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/09.png" alt="author-img"></a>
-                            <h6><a href="author.html">unique lo</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/06.jpg" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">Fly on high</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            355</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item virtual trending">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author d-flex align-items-center">
-                            <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/05.gif" alt="author-img"></a>
-                            <h6><a href="author.html">Monica bel</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/05.gif" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">kiara rodri de</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            60</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item cards collect">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/08.gif"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author d-flex align-items-center">
-                            <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/11.png" alt="author-img"></a>
-                            <h6><a href="author.html">Gucci L.</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/05.jpg" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">EUPHORIA de</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            230</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="nft-item top trending">
-        <div class="nft-inner">
-            <!-- nft top part -->
-            <div class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.png"
-                                                       alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="item-details.html"><img loading="lazy"
-                                                             src="assets/images/seller/07.png" alt="author-img"></a>
-                        </li>
-                        <li class="single-author d-flex align-items-center">
-                            <a href="item-details.html" class="veryfied"><img loading="lazy"
-                                                                              src="assets/images/seller/09.png" alt="author-img"></a>
-                            <h6><a href="item-details.html">ptrax elm.</a></h6>
-                        </li>
-                    </ul>
-                </div>
-                <div class="more-part">
-                    <div class=" dropstart">
-                        <a class=" dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                           aria-expanded="false" data-bs-offset="25,0">
-                            <i class="icofont-flikr"></i>
-                        </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#"><span>
-                                                        <i class="icofont-warning"></i>
-                                                    </span> Report </a>
-                            </li>
-                            <li><a class="dropdown-item" href="#"><span><i
-                                    class="icofont-reply"></i></span> Share</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- nft-bottom part -->
-            <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/06.gif" alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span class="days">34</span><span class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span class="hours">09</span><span class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span class="minutes">32</span><span class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span class="seconds">32</span><span class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
-                <div class="nft-content">
-                    <h4><a href="item-details.html">Homies wall</a> </h4>
-                    <div class="price-like d-flex justify-content-between align-items-center">
-                        <p class="nft-price">Price: <span class="yellow-color">0.34 ETH</span>
-                        </p>
-                        <a href="#" class="nft-like" data-blast="color"><i class="icofont-heart"></i>
-                            930</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-    <section class="assets-section pb-100">
+    
+    <section class="assets-section pb-100 pt-5 mt-5">
     <div class="container">
     <div class="section-header">
         <div class="header-title">
@@ -799,7 +173,7 @@
                     <ul class="author-list d-flex">
                         <li class="single-author d-flex align-items-center">
                             <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/04.png" alt="author-img"></a>
+                                                                        src="../assets/images/seller/04.png" alt="author-img"></a>
                             <h6><a href="author.html">Gucci Lucas</a></h6>
                         </li>
                     </ul>
@@ -825,7 +199,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/02.gif" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/02.gif" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -863,16 +237,16 @@
                 <div class="author-part">
                     <ul class="author-list d-flex">
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/01.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.gif"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/01.gif"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author d-flex align-items-center">
                             <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/02.png" alt="author-img"></a>
+                                                                        src="../assets/images/seller/02.png" alt="author-img"></a>
                             <h6><a href="author.html">Ecalo jers</a></h6>
                         </li>
                     </ul>
@@ -898,7 +272,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/03.jpg" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/03.jpg" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -936,16 +310,16 @@
                 <div class="author-part">
                     <ul class="author-list d-flex">
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/02.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/02.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/05.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/05.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author d-flex align-items-center">
                             <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/04.png" alt="author-img"></a>
+                                                                        src="../assets/images/seller/04.png" alt="author-img"></a>
                             <h6><a href="author.html">Hola moc</a></h6>
                         </li>
                     </ul>
@@ -971,7 +345,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/04.gif" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/04.gif" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1010,12 +384,12 @@
                 <div class="author-part">
                     <ul class="author-list d-flex">
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/06.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/06.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author d-flex align-items-center">
                             <a href="#" class="veryfied"><img loading="lazy"
-                                                              src="assets/images/seller/05.gif" alt="author-img"></a>
+                                                              src="../assets/images/seller/05.gif" alt="author-img"></a>
                             <h6><a href="author.html">Logicto pen</a></h6>
                         </li>
                     </ul>
@@ -1041,7 +415,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/07.jpg" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/07.jpg" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1079,16 +453,16 @@
                 <div class="author-part">
                     <ul class="author-list d-flex">
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/06.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/06.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/07.gif"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/07.gif"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author d-flex align-items-center">
                             <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/09.png" alt="author-img"></a>
+                                                                        src="../assets/images/seller/09.png" alt="author-img"></a>
                             <h6><a href="author.html">unique lo</a></h6>
                         </li>
                     </ul>
@@ -1114,7 +488,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/06.jpg" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/06.jpg" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1153,7 +527,7 @@
                     <ul class="author-list d-flex">
                         <li class="single-author d-flex align-items-center">
                             <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/05.gif" alt="author-img"></a>
+                                                                        src="../assets/images/seller/05.gif" alt="author-img"></a>
                             <h6><a href="author.html">Monica bel</a></h6>
                         </li>
                     </ul>
@@ -1179,7 +553,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/05.gif" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/05.gif" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1217,16 +591,16 @@
                 <div class="author-part">
                     <ul class="author-list d-flex">
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/08.gif"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/08.gif"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/01.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author d-flex align-items-center">
                             <a href="author.html" class="veryfied"><img loading="lazy"
-                                                                        src="assets/images/seller/11.png" alt="author-img"></a>
+                                                                        src="../assets/images/seller/11.png" alt="author-img"></a>
                             <h6><a href="author.html">Gucci L.</a></h6>
                         </li>
                     </ul>
@@ -1252,7 +626,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/05.jpg" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/05.jpg" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1290,16 +664,16 @@
                 <div class="author-part">
                     <ul class="author-list d-flex">
                         <li class="single-author">
-                            <a href="author.html"><img loading="lazy" src="assets/images/seller/01.png"
+                            <a href="author.html"><img loading="lazy" src="../assets/images/seller/01.png"
                                                        alt="author-img"></a>
                         </li>
                         <li class="single-author">
                             <a href="item-details.html"><img loading="lazy"
-                                                             src="assets/images/seller/07.png" alt="author-img"></a>
+                                                             src="../assets/images/seller/07.png" alt="author-img"></a>
                         </li>
                         <li class="single-author d-flex align-items-center">
                             <a href="item-details.html" class="veryfied"><img loading="lazy"
-                                                                              src="assets/images/seller/09.png" alt="author-img"></a>
+                                                                              src="../assets/images/seller/09.png" alt="author-img"></a>
                             <h6><a href="item-details.html">ptrax elm.</a></h6>
                         </li>
                     </ul>
@@ -1325,7 +699,7 @@
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
                 <div class="nft-thumb">
-                    <img loading="lazy" src="assets/images/nft-item/06.gif" alt="nft-img">
+                    <img loading="lazy" src="../assets/images/nft-item/06.gif" alt="nft-img">
 
                     <!-- nft countdwon -->
                     <!-- <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1398,11 +772,11 @@
                                         <div class="author-part">
                                             <ul class="author-list d-flex">
                                                 <li class="single-author">
-                                                    <a href="author.html"><img src="assets/images/seller/01.png"
+                                                    <a href="author.html"><img src="../assets/images/seller/01.png"
                                                             alt="author-img"></a>
                                                 </li>
                                                 <li class="single-author d-flex align-items-center">
-                                                    <a href="#" class="veryfied"><img src="assets/images/seller/01.gif"
+                                                    <a href="#" class="veryfied"><img src="../assets/images/seller/01.gif"
                                                             alt="author-img"></a>
                                                     <h6><a href="author.html">Jhon Doe</a></h6>
                                                 </li>
@@ -1430,7 +804,7 @@
                                     <!-- nft-bottom part -->
                                     <div class="nft-item-bottom">
                                         <div class="nft-thumb">
-                                            <img src="assets/images/nft-item/03.gif" alt="nft-img">
+                                            <img src="../assets/images/nft-item/03.gif" alt="nft-img">
 
                                             <!-- nft countdwon -->
                                             <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1472,16 +846,16 @@
                                         <div class="author-part">
                                             <ul class="author-list d-flex">
                                                 <li class="single-author">
-                                                    <a href="author.html"><img src="assets/images/seller/01.png"
+                                                    <a href="author.html"><img src="../assets/images/seller/01.png"
                                                             alt="author-img"></a>
                                                 </li>
                                                 <li class="single-author">
-                                                    <a href="author.html"><img src="assets/images/seller/02.gif"
+                                                    <a href="author.html"><img src="../assets/images/seller/02.gif"
                                                             alt="author-img"></a>
                                                 </li>
                                                 <li class="single-author d-flex align-items-center">
                                                     <a href="author.html" class="veryfied"><img
-                                                            src="assets/images/seller/02.png" alt="author-img"></a>
+                                                            src="../assets/images/seller/02.png" alt="author-img"></a>
                                                     <h6><a href="author.html">Gucci L.</a></h6>
                                                 </li>
                                             </ul>
@@ -1508,7 +882,7 @@
                                     <!-- nft-bottom part -->
                                     <div class="nft-item-bottom">
                                         <div class="nft-thumb">
-                                            <img src="assets/images/nft-item/03.jpg" alt="nft-img">
+                                            <img src="../assets/images/nft-item/03.jpg" alt="nft-img">
 
                                             <!-- nft countdwon -->
                                             <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1550,7 +924,7 @@
                                             <ul class="author-list d-flex">
                                                 <li class="single-author d-flex align-items-center">
                                                     <a href="author.html" class="veryfied"><img
-                                                            src="assets/images/seller/04.png" alt="author-img"></a>
+                                                            src="../assets/images/seller/04.png" alt="author-img"></a>
                                                     <h6><a href="author.html">Rassel mrh</a></h6>
                                                 </li>
                                             </ul>
@@ -1577,7 +951,7 @@
                                     <!-- nft-bottom part -->
                                     <div class="nft-item-bottom">
                                         <div class="nft-thumb">
-                                            <img src="assets/images/nft-item/04.jpg" alt="nft-img">
+                                            <img src="../assets/images/nft-item/04.jpg" alt="nft-img">
 
                                             <!-- nft countdwon -->
                                             <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1618,16 +992,16 @@
                                         <div class="author-part">
                                             <ul class="author-list d-flex">
                                                 <li class="single-author">
-                                                    <a href="author.html"><img src="assets/images/seller/04.png"
+                                                    <a href="author.html"><img src="../assets/images/seller/04.png"
                                                             alt="author-img"></a>
                                                 </li>
                                                 <li class="single-author">
-                                                    <a href="author.html"><img src="assets/images/seller/05.png"
+                                                    <a href="author.html"><img src="../assets/images/seller/05.png"
                                                             alt="author-img"></a>
                                                 </li>
                                                 <li class="single-author d-flex align-items-center">
                                                     <a href="author.html" class="veryfied"><img
-                                                            src="assets/images/seller/04.gif" alt="author-img"></a>
+                                                            src="../assets/images/seller/04.gif" alt="author-img"></a>
                                                     <h6><a href="author.html">Blexa z</a></h6>
                                                 </li>
                                             </ul>
@@ -1654,7 +1028,7 @@
                                     <!-- nft-bottom part -->
                                     <div class="nft-item-bottom">
                                         <div class="nft-thumb">
-                                            <img src="assets/images/nft-item/02.gif" alt="nft-img">
+                                            <img src="../assets/images/nft-item/02.gif" alt="nft-img">
 
                                             <!-- nft countdwon -->
                                             <ul data-blast="bgColor" class="nft-countdown count-down"
@@ -1739,7 +1113,7 @@
                                 <p class="assets-number">21</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html" class=""><img src="assets/images/seller/01.gif"
+                                        <a href="author.html" class=""><img src="../assets/images/seller/01.gif"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1763,7 +1137,7 @@
                                 <p class="assets-number">34</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/01.png"
+                                        <a href="author.html"><img src="../assets/images/seller/01.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1787,7 +1161,7 @@
                                 <p class="assets-number">31</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/02.png"
+                                        <a href="author.html"><img src="../assets/images/seller/02.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1811,7 +1185,7 @@
                                 <p class="assets-number">05</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/03.png"
+                                        <a href="author.html"><img src="../assets/images/seller/03.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1835,7 +1209,7 @@
                                 <p class="assets-number">09</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/04.png"
+                                        <a href="author.html"><img src="../assets/images/seller/04.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1859,7 +1233,7 @@
                                 <p class="assets-number">01</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/05.gif"
+                                        <a href="author.html"><img src="../assets/images/seller/05.gif"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1883,7 +1257,7 @@
                                 <p class="assets-number">30</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/06.png"
+                                        <a href="author.html"><img src="../assets/images/seller/06.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1907,7 +1281,7 @@
                                 <p class="assets-number">01</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/03.gif"
+                                        <a href="author.html"><img src="../assets/images/seller/03.gif"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1931,7 +1305,7 @@
                                 <p class="assets-number">91</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/07.png"
+                                        <a href="author.html"><img src="../assets/images/seller/07.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1955,7 +1329,7 @@
                                 <p class="assets-number">01</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/05.gif"
+                                        <a href="author.html"><img src="../assets/images/seller/05.gif"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -1979,7 +1353,7 @@
                                 <p class="assets-number">02</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/09.png"
+                                        <a href="author.html"><img src="../assets/images/seller/09.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -2003,7 +1377,7 @@
                                 <p class="assets-number">51</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/11.png"
+                                        <a href="author.html"><img src="../assets/images/seller/11.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -2027,7 +1401,7 @@
                                 <p class="assets-number">21</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/06.png"
+                                        <a href="author.html"><img src="../assets/images/seller/06.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -2051,7 +1425,7 @@
                                 <p class="assets-number">61</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/06.png"
+                                        <a href="author.html"><img src="../assets/images/seller/06.png"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -2075,7 +1449,7 @@
                                 <p class="assets-number">33</p>
                                 <div class="assets-owner">
                                     <div class="owner-thumb veryfied">
-                                        <a href="author.html"><img src="assets/images/seller/10.gif"
+                                        <a href="author.html"><img src="../assets/images/seller/10.gif"
                                                 alt="seller-img"></a>
                                     </div>
                                     <div class="owner-content">
@@ -2099,7 +1473,7 @@
         </div>
     </section>
     <footer class="footer-section">
-        <div class="footer-top" style="background-image: url(assets/images/footer/bg.jpg);">
+        <div class="footer-top" style="background-image: url(../assets/images/footer/bg.jpg);">
             <div class="footer-links padding-top padding-bottom">
                 <div class="container">
                     <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
@@ -2188,17 +1562,17 @@
 
 
     <!-- All Scripts -->
-    <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <!-- <script src="assets/js/blast.min.js"></script> -->
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/lightcase.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/countdown.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/functions.js"></script>
+    <script src="../assets/js/waypoints.min.js"></script>
+    <script src="../assets/js/lightcase.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/countdown.min.js"></script>
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/functions.js"></script>
 </body>
 
 </html>
