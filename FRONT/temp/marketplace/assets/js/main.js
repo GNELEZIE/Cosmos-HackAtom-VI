@@ -133,6 +133,7 @@ $(document).ready(async function () {
 
   // BOUTON DE CONNEXION AU COMPTE
     $(document).ready(function() {
+<<<<<<< HEAD
         
         var result =  _getAccounts()
         var params = {
@@ -154,6 +155,24 @@ $(document).ready(async function () {
     });
     addToMetamask(params);
    
+=======
+        var result =  _getAccounts()
+        console.log(result)
+        if (result.error) {
+            $('#btn_connect').show();
+            alert("Une erreur est survenue au moment de l'obtention des infos de votre compte !",);
+            return
+        }
+
+    //   evmos-testnet: {
+    //   provider: () => new HDWalletProvider(mnemonic, 'http://arsiamons.rpc.evmos.org:8545'),
+    //   network_id: 9000,
+    // }
+    });
+
+    
+
+>>>>>>> 80ef79b1de857ce6a153e464b94695c61ff5cecf
    connectSmartContract();
 });
 

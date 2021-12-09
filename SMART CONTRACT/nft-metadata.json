@@ -1,0 +1,16 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Breed",
+        "value": "Maltipoo"
+      },
+      {
+        "trait_type": "Eye color",
+        "value": "white"
+      }
+    ],
+    "description": "Project Advisor.",
+    "image": "https://ipfs.io/ipfs/QmTi18dLKUWXYZCCNaJobpMC5QCdfM6HFiUQQ8dQAQpiFN",
+    "name": "DNP3"
+  }
+  
