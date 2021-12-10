@@ -165,14 +165,13 @@
                 <input type="file">
             </div>
         </div>
-        <div class="profile-name">
-            <h4>Alex joe</h4>
-            <p>@alexjoe.jxe</p>
+        <div class="profile-name ">
+            <h4 class="_address"></h4>
         </div>
         <ul class="profile-contact">
             <li class="crypto-copy">
                 <div id="cryptoCode" class="crypto-page">
-                    <input id="cryptoLink" value="0x731F9FBF4163D47B0F581DD9EC45C9" readonly>
+                    <input id="cryptoLink" value="" readonly>
                     <div id="cryptoCopy" data-bs-toggle="tooltip" data-bs-placement="top"
                          title="Copy Address">
                                             <span class="copy-icon">
@@ -262,9 +261,9 @@
         </button>
         <button class="nav-link" id="nav-wallet-tab" data-bs-toggle="tab"
                 data-bs-target="#wallet" type="button" role="tab" aria-controls="wallet"
-                aria-selected="false">Mon portefeuille
+                aria-selected="false">My wallet
         </button>
-        <div class="dropdown">
+        <!-- <div class="dropdown">
             <a class="btn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Paramètres</a>
 
             <ul class="dropdown-menu">
@@ -272,7 +271,7 @@
                 <li><a class="dropdown-item" href="#">Changer password</a></li>
                 <li><a class="dropdown-item" href="#">Bloquer</a></li>
             </ul>
-        </div>
+        </div> -->
 
     </div>
 </nav>
@@ -291,14 +290,14 @@
                 type="button" role="tab" aria-controls="pills-personal"
                 aria-selected="false">
             <i class="icofont-flask"></i>
-            Créer NFT</button>
+            Create NFT</button>
     </li>
     <li class="nav-item" role="presentation">
         <button class="nav-link active" id="pills-mentions-tab"
                 data-bs-toggle="pill" data-bs-target="#pills-mentions"
                 type="button" role="tab" aria-controls="pills-mentions"
                 aria-selected="true"><i class="icofont-flash"></i>
-            En solde</button>
+            Bid</button>
     </li>
     <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-favorites-tab"
@@ -306,13 +305,6 @@
                 type="button" role="tab" aria-controls="pills-favorites"
                 aria-selected="false"><i class="icofont-license"></i>
             owned</button>
-    </li>
-    <li class="nav-item" role="presentation">
-        <button class="nav-link" id="pills-groups-tab"
-                data-bs-toggle="pill" data-bs-target="#pills-groups"
-                type="button" role="tab" aria-controls="pills-groups"
-                aria-selected="false"><i class="icofont-puzzle"></i>
-            Crée</button>
     </li>
     <li class="nav-item" role="presentation">
         <button class="nav-link" id="pills-friends-tab"
@@ -324,7 +316,7 @@
 
     <li class="custom-select">
         <select>
-            <option value="1">Voir</option>
+            <option value="1">View</option>
             <option value="2">Recent</option>
             <option value="3">Relevant</option>
             <option value="4">Popular</option>
@@ -426,14 +418,7 @@
                                             id="selectCrypto"
                                             aria-label="Floating label select">
                                         <option selected>
-                                            Ethereum
-                                        </option>
-                                        <option value="1">
-                                            BitCoin
-                                        </option>
-                                        <option value="2">Dollar
-                                        </option>
-                                        <option value="3">Pound
+                                            Photon
                                         </option>
                                     </select>
                                     <label
@@ -493,7 +478,7 @@
                     </div>
                     <!-- submit button -->
                     <div class="submit-btn-field text-center">
-                        <button type="submit">Create
+                        <button type="button" id="create_item">Create
                             Item</button>
                     </div>
                 </form>
@@ -513,25 +498,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/02.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Jhon
-                                Doe</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+             
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -613,21 +580,8 @@
     <div class="nft-item">
         <div class="nft-inner">
             <!-- nft top part -->
-            <div
-                    class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/05.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Gucci
-                                Lucas</a></h6>
-                        </li>
-                    </ul>
-                </div>
+            <div class="nft-item-top d-flex justify-content-between align-items-center">
+               
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -709,31 +663,8 @@
     <div class="nft-item">
         <div class="nft-inner">
             <!-- nft top part -->
-            <div
-                    class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/01.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/06.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Ecalo
-                                jers</a></h6>
-                        </li>
-                    </ul>
-                </div>
+            <div class="nft-item-top d-flex justify-content-between align-items-center">
+               
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -817,30 +748,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/03.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/04.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/07.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Hola
-                                moc</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -924,24 +832,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/04.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/04.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Logicto
-                                pen</a></h6>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1025,29 +916,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/04.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/06.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">unique
-                                lo</a></h6>
-                        </li>
-                    </ul>
-                </div>
+               
                 <div class="more-part"><i
                         class="icofont-flikr"></i></div>
             </div>
@@ -1118,25 +987,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/01.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Jhon
-                                Doe</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+               
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1220,19 +1071,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/06.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Gucci
-                                Lucas</a></h6>
-                        </li>
-                    </ul>
-                </div>
+              
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1316,29 +1155,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/01.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Ecalo
-                                jers</a></h6>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1432,25 +1249,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/02.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/04.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Jhon
-                                Doe</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+             
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1534,19 +1333,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/04.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Gucci
-                                Lucas</a></h6>
-                        </li>
-                    </ul>
-                </div>
+              
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1630,29 +1417,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/05.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/02.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/05.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Ecalo
-                                jers</a></h6>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1736,30 +1501,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/02.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/07.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Hola
-                                moc</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+            
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1843,24 +1585,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/03.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/04.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Logicto
-                                pen</a></h6>
-                        </li>
-                    </ul>
-                </div>
+              
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -1953,25 +1678,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/05.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/05.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Jhon
-                                Doe</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+              
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -2055,19 +1762,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/01.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Gucci
-                                Lucas</a></h6>
-                        </li>
-                    </ul>
-                </div>
+                
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -2096,35 +1791,7 @@
             </div>
             <!-- nft-bottom part -->
             <div class="nft-item-bottom">
-                <div class="nft-thumb">
-                    <img src="assets/images/arts/v14.png"
-                         alt="nft-img">
-
-                    <!-- nft countdwon -->
-                    <!-- <ul class="nft-countdown count-down"
-                        data-date="July 05, 2022 21:14:01">
-                        <li>
-                            <span
-                                class="days">34</span><span
-                                class="count-txt">D</span>
-                        </li>
-                        <li>
-                            <span
-                                class="hours">09</span><span
-                                class="count-txt">H</span>
-                        </li>
-                        <li>
-                            <span
-                                class="minutes">32</span><span
-                                class="count-txt">M</span>
-                        </li>
-                        <li>
-                            <span
-                                class="seconds">32</span><span
-                                class="count-txt">S</span>
-                        </li>
-                    </ul> -->
-                </div>
+            
                 <div class="nft-content">
                     <h4><a href="item-details.html">EUPHORIA
                         de</a>
@@ -2151,29 +1818,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/03.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/02.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/06.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Ecalo
-                                jers</a></h6>
-                        </li>
-                    </ul>
-                </div>
+               
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -2257,30 +1902,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/05.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/04.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/08.png"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Hola
-                                moc</a>
-                            </h6>
-                        </li>
-                    </ul>
-                </div>
+               
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -2364,24 +1986,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/04.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/07.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">Logicto
-                                pen</a></h6>
-                        </li>
-                    </ul>
-                </div>
+              
                 <div class="more-part">
                     <div class=" dropstart">
                         <a class=" dropdown-toggle"
@@ -2465,29 +2070,7 @@
             <!-- nft top part -->
             <div
                     class="nft-item-top d-flex justify-content-between align-items-center">
-                <div class="author-part">
-                    <ul class="author-list d-flex">
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/05.png"
-                                    alt="author-img"></a>
-                        </li>
-                        <li class="single-author">
-                            <a href="author.html"><img
-                                    src="assets/images/seller/02.gif"
-                                    alt="author-img"></a>
-                        </li>
-                        <li
-                                class="single-author d-flex align-items-center">
-                            <a href="author.html"
-                               class="veryfied"><img
-                                    src="assets/images/seller/01.gif"
-                                    alt="author-img"></a>
-                            <h6><a href="author.html">unique
-                                lo</a></h6>
-                        </li>
-                    </ul>
-                </div>
+              
                 <div class="more-part"><i
                         class="icofont-flikr"></i></div>
             </div>
@@ -2560,14 +2143,14 @@
         <div class="profile-widget search-widget">
             <div class="widget-inner">
                 <div class="widget-title">
-                    <h5>Rechercher NFT</h5>
+                    <h5>Search NFT</h5>
                 </div>
                 <div class="widget-content">
                     <p>Search from best Rarest NFT collections</p>
                     <div class="form-floating nft-search-input">
                         <input type="text" class="form-control"
-                               placeholder="Rechercher NFT">
-                        <label>Rechercher NFT</label>
+                               placeholder="Search NFT">
+                        <label>Search NFT</label>
                         <button type="button"> <i
                                 class="icofont-search-1"></i></button>
                     </div>
@@ -2614,12 +2197,12 @@
                         <div class="info-card-content">
                             <ul class="info-list">
                                 <li>
-                                    <p class="info-name">Name</p>
-                                    <p class="info-details">Alex Joe</p>
+                                    <p class="info-name">Account</p>
+                                    <p class="info-details"></p>
                                 </li>
                                 <li>
                                     <p class="info-name">Country</p>
-                                    <p class="info-details">USA</p>
+                                    <p class="info-details">Côte d'Ivoire</p>
                                 </li>
                                 <li>
                                     <p class="info-name">Specialize in</p>
@@ -2627,20 +2210,7 @@
                                 </li>
                                 <li>
                                     <p class="info-name">Wallet Add</p>
-                                    <p class="info-details">fdffx1xr394k..dfdk23sl</p>
-                                </li>
-                                <li>
-                                    <p class="info-name">Age</p>
-                                    <p class="info-details">36</p>
-                                </li>
-                                <li>
-                                    <p class="info-name">Date of Birth</p>
-                                    <p class="info-details">27-02-1996</p>
-                                </li>
-                                <li>
-                                    <p class="info-name">Address</p>
-                                    <p class="info-details">Streop Rd, Peosur, Inphodux,
-                                        USA.</p>
+                                    <p class="info-details" id="_address"></p>
                                 </li>
                             </ul>
 
@@ -2729,7 +2299,7 @@
                     <div class="wallet-title">
                         <h4>Connectez votre portefeuille</h4>
                         <p>Connectez-vous avec l'un des fournisseurs de portefeuille disponibles ou <a
-                                href="signup.html">créer un nouveau portefeuille</a></p>
+                                href="signup.html">Create new wallet</a></p>
                     </div>
                     <div class="wallet-section">
                         <div class="wallet-inner">
@@ -2901,84 +2471,57 @@
 <!-- ==========Profile Section Ends Here========== -->
 
 
-<!-- ===============//footer section start here \\================= -->
-<footer class="footer-section">
+   <!-- ===============//footer section start here \\================= -->
+   <footer class="footer-section">
     <div class="footer-top" style="background-image: url(assets/images/footer/bg.jpg);">
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row g-4 align-items-center justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="newsletter-part">
+                            <div class="ft-header">
+                                <h4>Get The Latest Rarible Updates</h4>
+                            </div>
+                            <form action="#">
+                                <input type="email" placeholder="Your Mail Address">
+                                <button type="submit"> Subscrib now</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social-part ps-lg-5">
+                            <div class="ft-header">
+                                <h4>Join the Community</h4>
+                            </div>
+                            <ul class="social-list d-flex flex-wrap align-items-center mb-0">
+                                <li class="social-link"><a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li class="social-link"><a href="#"><i class="icofont-twitch"></i></a></li>
+                                <li class="social-link"><a href="#"><i class="icofont-reddit"></i></a></li>
+                                <li class="social-link"><a href="#"><i class="icofont-instagram"></i></a></li>
+                                <li class="social-link"><a href="#"><i class="icofont-dribble"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
         <div class="footer-links padding-top padding-bottom">
             <div class="container">
                 <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
-                    <div class="col">
-                        <div class="footer-link-item">
-                            <h5>A propos</h5>
-                            <ul class="footer-link-list">
-                                <li><a href="#" class="footer-link">Explore</a></li>
-                                <li><a href="#" class="footer-link">How it works</a></li>
-                                <li><a href="#" class="footer-link">Support</a></li>
-                                <li><a href="#" class="footer-link">Become a partner</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="footer-link-item">
-                            <h5>NFT Marketplace</h5>
-                            <ul class="footer-link-list">
-                                <li><a href="#" class="footer-link">Sell your assets</a></li>
-                                <li><a href="#" class="footer-link">FAQ</a></li>
-                                <li><a href="#" class="footer-link">Support</a></li>
-                                <li><a href="#" class="footer-link">Privacy/Policy</a></li>
-                                <li><a href="#" class="footer-link">Your purchases</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="footer-link-item">
-                            <h5>Music</h5>
-                            <ul class="footer-link-list">
-                                <li><a href="#" class="footer-link">About</a></li>
-                                <li><a href="#" class="footer-link">Mission & Team</a></li>
-                                <li><a href="#" class="footer-link">Our Blog</a></li>
-                                <li><a href="#" class="footer-link">Services</a></li>
-                                <li><a href="#" class="footer-link">We're Hiring</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="footer-link-item">
-                            <h5>Art</h5>
-                            <ul class="footer-link-list">
-                                <li><a href="#" class="footer-link">Sell your assets</a></li>
-                                <li><a href="#" class="footer-link">FAQ</a></li>
-                                <li><a href="#" class="footer-link">Support</a></li>
-                                <li><a href="#" class="footer-link">Privacy/Policy</a></li>
-                                <li><a href="#" class="footer-link">Your purchases</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="footer-link-item">
-                            <h5>Liens utils</h5>
-                            <ul class="footer-link-list">
-                                <li><a href="#" class="footer-link">NFT Token</a></li>
-                                <li><a href="#" class="footer-link">Discusion</a></li>
-                                <li><a href="#" class="footer-link">Voting</a></li>
-                                <li><a href="#" class="footer-link">Suggest Feature</a></li>
-                                <li><a href="#" class="footer-link">Language</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <p class="text-center py-4 mb-0">All rights reserved &copy; Marketplace || Design By: <a
-                    href="https://themeforest.net/user/codexcoder">Team blockchain UVCI</a>
+            <p class="text-center py-4 mb-0">All rights reserved &copy; Enftomark || Design By: <a
+                    href="https://themeforest.net/user/codexcoder">codexcoder</a>
             </p>
         </div>
     </div>
-
 </footer>
 <!-- ===============//footer section end here \\================= -->
 
@@ -2988,6 +2531,10 @@
 <a href="#" class="scrollToTop"><i class="icofont-stylish-up"></i></a>
 <!-- scrollToTop ending here -->
 
+<script>
+
+  
+</script>
 
 
 

@@ -1,5 +1,4 @@
-var TokenADRESSE =  "0x4c35500325bC35c04116Daa8F8C889F2d43e8CBB"
-var expore =  "https://evm.evmos.org/tx/0x011f88b0dee06190e356f017132da577d18d5198e3ba3c58a65d61e74ff270d3/internal-transactions"
+var TokenADRESSE =  "0x4c35500325bC35c04116Daa8F8C889F2d43e8CBB";
 
 var TokenABI = [
 	{
@@ -415,7 +414,7 @@ var TokenABI = [
 	}
 ]
 
-var byte_code = {
+var ByteCODE = {
 	"functionDebugData": {
 		"@_167": {
 			"entryPoint": null,
