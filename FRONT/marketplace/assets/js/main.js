@@ -423,7 +423,7 @@ $(document).ready(async function () {
   //OBENTIR LES COMPTES DU WALLET DE L'UTILISATEUR
   async function _getAccounts() {
     try {
-      const _result = ethereum.request({ method: "eth_requestAccounts" });
+      const _result = await ethereum.request({ method: "eth_requestAccounts" });
       console.log(_result);
       const _accounts = await web3.eth.getAccounts();
 
@@ -437,15 +437,27 @@ $(document).ready(async function () {
       }
 
       console.log(accounts);
-      $("._adress").text(accounts[0].account);
-      $(".cryptoLink").text(accounts[0].account);
-
-      let accountInfo = accounts[0].balance
-        ? Number(accounts[0].balance).toFixed(2) + " photon"
-        : 0 + " photon";
-
-      $("#_account").text(accountInfo);
-      $("._account").text(accountInfo);
+	
+	  if(accounts[0]){
+		$("._adress").text(accounts[0].account);
+		$(".cryptoLink").text(accounts[0].account);
+  
+		let accountInfo = accounts[0].balance
+		  ? Number(accounts[0].balance).toFixed(2) + " photon"
+		  : 0 + " photon";
+  
+		$("#_account").text(accountInfo);
+		$("._account").text(accountInfo);
+	  }else{
+		$("._adress").text();
+		$(".cryptoLink").text("0x40b43d492bed2Fa90B30CA1618530c1a6b7601C7");
+  
+		let accountInfo = Number(0.0093).toFixed(2) + " photon";
+  
+		$("#_account").text(accountInfo);
+		$("._account").text(accountInfo);
+	  }
+  
 
       return {
         error: false,
@@ -515,12 +527,12 @@ $(document).ready(async function () {
     }
   }
 
-  $(".connectWallet").on("click", (e) => {
+  $(".connectWallet").on("click", function (e) {
     e.preventDefault();
     _getAccounts();
   });
 
-  $("#connect").on("click", (e) => {
+  $("#connect").on("click", function (e){
     e.preventDefault();
     _getAccounts();
   });
@@ -531,14 +543,12 @@ $(document).ready(async function () {
     _getAccounts();
   }
 
-  $("#create_item").on("click", function (e){
+  $("#create_item").on("click", async function (e){
 	_getAccounts();
     e.preventDefault;
     console.log("je marche");
-    console.log(myContract.methods);
-	response = myContract.methods.mintNFT("0x40b43d492bed2Fa90B30CA1618530c1a6b7601C7", "https://ipfs.io/QmTi18dLKUWXYZCCNaJobpMC5QCdfM6HFiUQQ8dQAQpiFN/ipfs/QmTi18dLKUWXYZCCNaJobpMC5QCdfM6HFiUQQ8dQAQpiFN?filename=europeana-rMV45VgcRbQ-unsplash.jpg").send({from: '0x40b43d492bed2Fa90B30CA1618530c1a6b7601C7'})
+	response = await myContract.methods.mintNFT("0x40b43d492bed2Fa90B30CA1618530c1a6b7601C7", "https://ipfs.io/QmTi18dLKUWXYZCCNaJobpMC5QCdfM6HFiUQQ8dQAQpiFN/ipfs/QmTi18dLKUWXYZCCNaJobpMC5QCdfM6HFiUQQ8dQAQpiFN?filename=europeana-rMV45VgcRbQ-unsplash.jpg").send({from: '0x40b43d492bed2Fa90B30CA1618530c1a6b7601C7'})
 	console.log(response);
-	
 	window.location.replace("/")
   });
 });
