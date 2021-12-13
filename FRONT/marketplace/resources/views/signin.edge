@@ -16,18 +16,44 @@
 
   <!-- site favicon -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <title>AfricanArt</title>
 
   <!-- ====== All css file ========= -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css//icofont.min.css">
   <link rel="stylesheet" href="assets/css/animate.css">
-  <link rel="stylesheet" href="assets/css/lightcase.css">
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="assets/css/style.min.css">
 
 
+<!-- 1. Install Magic SDK -->
+<script src="https://auth.magic.link/sdk"></script>
   <!-- site title -->
-  <title>Marketplace</title>
+
+
+{{--  
+    <script
+      src="https://auth.magic.link/pnp/login"
+      data-magic-publishable-api-key="pk_live_C0D5BD4D07859238"
+      data-redirect-uri="/callback">
+  </script> 
+ --}}
+ 
+ <script>
+    /* 2. Initialize Magic Instance */
+    const magic = new Magic('pk_live_C0D5BD4D07859238');
+
+    /* 2. Initialize Magic Instance */
+    var user = {};
+    (async function(){
+         user = await magic.user;
+         if(await user.isLoggedIn()){
+           window.location.replace("/") ;
+         }
+    })();
+
+    
+  
+ </script>
 </head>
 
 <body>
@@ -48,47 +74,13 @@
     <div class="header__content">
       <div class="header__logo">
         <a href="{{route('HomePages')}}" style="font-size: 30px">
-          Marketplace
+         
         </a>
       </div>
       <div class="header__menu ms-auto">
 
       </div>
-      <div class="header__actions">
-        <div class="header__action header__action--profile">
-          <div class="dropdown">
-            <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-               aria-expanded="false" data-bs-offset="-100,10">
-              <span data-blast="bgColor"><i class="icofont-user"></i></span> <span
-                class="d-none d-md-inline">....</span>
-            </a>
-
-            <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="{{route('profil')}}">
-                  <span class="me-1"><i class="icofont-options"></i></span>Profil</a>
-              </li>
-
-              <li><a class="dropdown-item" href="{{route('register')}}"><span class="me-1"><i
-                      class="icofont-space-shuttle"></i></span>Inscription</a></li>
-              <li><a class="dropdown-item" href="{{route('login')}}"><span class="me-1"><i
-                      class="icofont-login"></i></span>Connexion</a>
-              </li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-
-              <li><a class="dropdown-item" href="#"> Déconnexion <span class="ms-1"><i class="icofont-logout"></i></span></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="wallet-btn">
-          <a href="wallet.html"><span><i class="icofont-wallet" data-blast="color"></i></span> <span
-              class="d-none d-md-inline">.... Photon</span> </a>
-        </div>
-
-      </div>
-
+     
       <button class="menu-trigger header__btn" id="menu05">
         <span></span>
         <span></span>
@@ -106,7 +98,7 @@
     <div class="page-header-content">
       <div class="page-header-inner">
         <div class="page-title">
-          <h2>Inscription</h2>
+          <h2>Bienvenue sur AfricanArt </h2>
         </div>
       </div>
     </div>
@@ -115,49 +107,23 @@
 <!-- ==========Page Header Section Ends Here========== -->
 
 
-<div class="login-section padding-top padding-bottom">
-  <div class=" container">
-    <div class="row g-5 align-items-center flex-md-row-reverse">
-      <div class="col-lg-5">
-        <div class="account-wrapper">
-          <h3 class="title">Nouveau compte</h3>
-          <form class="account-form">
-            <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput"
-                     placeholder="name@example.com">
-              <label for="floatingInput">Email</label>
-            </div>
-            <div class="form-floating mb-3">
-              <input type="password" class="form-control" id="floatingPassword"
-                     placeholder="Password">
-              <label for="floatingPassword">Password</label>
-            </div>
-            <div class="form-group">
-              <div class="d-flex justify-content-between flex-wrap pt-sm-2">
-                <div class="checkgroup">
-                  <input type="checkbox" name="remember" id="remember">
-                  <label for="remember">Souviens-toi de moi</label>
-                </div>
-                <a href="forgot-pass.html">Mot de passe oublié?</a>
+<div class="login-section  pt-4 padding-bottom ">
+    <div class=" container" >
+      <div class="row g-6 align-items-center mx-auto">
+        <div class="col-lg-6 mx-auto">
+          <div class="account-wrapper">
+            <h3 class="title">Connexion/Inscription</h3>
+              <div id="app">
+
               </div>
+            <div class="account-bottom">
+              <span class="d-block cate pt-10">Rentrez votre email pour vous <a href="#"> identifier!</a></span>
             </div>
-            <div class="form-group">
-              <button class="d-block default-btn move-top"><span>Connexion</span></button>
-            </div>
-          </form>
-          <div class="account-bottom">
-            <span class="d-block cate pt-10">Vous avez déjà un compte? <a href="signin.html"> S'identifier</a></span>
           </div>
         </div>
       </div>
-      <div class="col-lg-7">
-        <div class="account-img">
-          <img src="assets/images/account/01.png" alt="shape-image">
-        </div>
-      </div>
-    </div>
-
   </div>
+
 </div>
 <!-- ==========Login Section ends Here========== -->
 
@@ -170,7 +136,7 @@
     <div class="footer-links padding-top padding-bottom">
       <div class="container">
         <div class="row g-5 row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-5">
-          <div class="col">
+          {{--  <div class="col">
             <div class="footer-link-item">
               <h5>A propos</h5>
               <ul class="footer-link-list">
@@ -184,7 +150,7 @@
           </div>
           <div class="col">
             <div class="footer-link-item">
-              <h5>NFT Marketplace</h5>
+              <h5>NFT AfricanArt</h5>
               <ul class="footer-link-list">
                 <li><a href="#" class="footer-link">Sell your assets</a></li>
                 <li><a href="#" class="footer-link">FAQ</a></li>
@@ -230,13 +196,13 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div>  --}}
       </div>
     </div>
   </div>
   <div class="footer-bottom">
     <div class="container">
-      <p class="text-center py-4 mb-0">All rights reserved &copy; Marketplace || Design By: <a
+      <p class="text-center py-4 mb-0">All rights reserved &copy; AfricanArt || Design By: <a
           href="#">Team blockchain UVCI</a>
       </p>
     </div>
@@ -252,7 +218,82 @@
 <!-- scrollToTop ending here -->
 
 
+<script>
 
+
+/* 3. Implement Render Function */
+const render = async () => {
+  let html = '';
+
+  /*
+    For this tutorial, our callback route is simply "/callback"
+  */
+  if (window.location.pathname === 'callback') {
+    try {
+      /* Complete the "authentication callback" */
+      await magic.auth.loginWithCredential();
+
+      /* Get user metadata including email */
+      const userMetadata = await magic.user.getMetadata();
+
+      html = `
+        <h1>Current user: ${userMetadata.email}</h1>
+        <button onclick="handleLogout()">Logout</button>
+      `;
+    } catch {
+      /* In the event of an error, we'll go back to the login page */
+      window.location.href = window.location.origin;
+    }
+  } else {
+    const isLoggedIn = await magic.user.isLoggedIn();
+
+    /* Show login form if user is not logged in */
+    html = `
+      <form onsubmit="handleLogin(event)" class="account-form">
+        <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email"
+                       placeholder="name@example.com" name="email" value="toure5013@gmail.com" required="required" >
+                <label for="email">Email</label>
+              </div>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+      </form>
+    `;
+
+    if (isLoggedIn) {
+      /* Get user metadata including email */
+      const userMetadata = await magic.user.getMetadata();
+      html = `
+        <h1>Current user: ${userMetadata.email}</h1>
+        <button onclick="handleLogout()">Logout</button>
+      `;
+    }
+  }
+
+  document.getElementById('app').innerHTML = html;
+};
+
+
+render()
+/* 4. Implement Login Handler */
+const handleLogin = async e => {
+  e.preventDefault();
+  const email = new FormData(e.target).get('email');
+  const redirectURI = `http://localhost:3333/callback`//`${window.location.origin}/callback`; // 👈 This will be our callback URI
+  if (email) {
+    /* One-liner login 🤯 */
+    await magic.auth.loginWithMagicLink({ email, redirectURI }); // 👈 Notice the additional parameter!
+    render();
+  }
+};
+
+
+/* 5. Implement Logout Handler */
+const handleLogout = async () => {
+  await magic.user.logout();
+  render();
+};
+
+</script>
 
 <!-- All Scripts -->
 <script src="assets/js/jquery-3.6.0.min.js"></script>

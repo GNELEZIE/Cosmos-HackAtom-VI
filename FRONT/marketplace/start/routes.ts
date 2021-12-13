@@ -35,8 +35,15 @@ Route.get('/profil', 'HomePagesController.profil').as('profil')
 // Route.get('/', 'HomePagesController.index').as('HomePages')
 Route.get('/wallet', 'HomePagesController.wallet').as('wallet')
 Route.get('/createNft', 'HomePagesController.createNft').as('createNft')
-Route.get('/login', 'HomePagesController.login').as('login')
 Route.get('/register', 'HomePagesController.register').as('register')
+
+
+//--------LOGIN PROCESS WITH MAGIC ----------------
+Route.get('/login', 'HomePagesController.login').as('login')
+Route.get('callback', 'HomePagesController.callback');
+Route.post('callback', 'HomePagesController.callback')
+
+
 
 
 

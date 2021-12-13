@@ -27,9 +27,35 @@
     <link rel="stylesheet" href="assets/css/style.min.css">
     <script src="assets/js/jquery-3.6.0.min.js"></script>
 
-    <script src="assets/node_modules/web3/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/anchor-link@3"></script>
+  <script src="https://unpkg.com/anchor-link-browser-transport@3"></script>
+
     <script src="assets/js/main.js"></script>
 
+<!-- 1. Install Magic SDK -->
+<script src="https://auth.magic.link/sdk"></script>
+  <!-- site title -->
+
+
+{{--  
+    <script
+      src="https://auth.magic.link/pnp/login"
+      data-magic-publishable-api-key="pk_live_C0D5BD4D07859238"
+      data-redirect-uri="/callback">
+  </script> 
+ --}}
+ 
+ <script>
+    /* 2. Initialize Magic Instance */
+    const magic = new Magic('pk_live_C0D5BD4D07859238');
+    var user = {};
+    (async function(){
+         user = await magic.user;
+    })();
+  
+
+ </script>
 
 
 

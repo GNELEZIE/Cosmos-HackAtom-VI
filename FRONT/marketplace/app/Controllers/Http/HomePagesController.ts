@@ -21,6 +21,11 @@ export default class HomePagesController {
     return view.render('signin')
   }
 
+  public async callback({ view }) {
+    return view.render('callback')
+  }
+  
+
   public async register({ view }) {
     return view.render('signup')
   }
